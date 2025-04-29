@@ -21,52 +21,52 @@ Next-generation LaTeX development with key advantages over Overleaf:
 ***Table of Contents***
 
 <details>
-  <summary><a href="#1-about-this-repository"><i><b>1. About This Repository</b></i></a></summary>
+  <summary><a href="#1-features"><i><b>1. Features</b></i></a></summary>
   <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-who-is-this-for">1.1. Who Is This For?</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-what-will-you-learn">1.2. What Will You Learn?</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#13-prerequisites">1.3. Prerequisites</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#14-project-structure">1.4. Project Structure</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-development-environment">1.1 Development Environment</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-build-system">1.2 Build System</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#13-quality-tools">1.3 Quality Tools</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#14-advantages-over-overleaf">1.4 Advantages Over Overleaf</a><br>
   </div>
 </details>
 &nbsp;
 
 <details>
-  <summary><a href="#2-tutorials"><i><b>2. Tutorials</b></i></a></summary>
+  <summary><a href="#2-about-this-repository"><i><b>2. About This Repository</b></i></a></summary>
   <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-docker-compose-setup">2.1 Docker Compose Setup</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-fix-cursor-chat-screenshot-wsl">2.2 Fix Cursor Chat Screenshot in WSL</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-who-is-this-for">2.1. Who Is This For?</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-what-will-you-learn">2.2. What Will You Learn?</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-prerequisites">2.3. Prerequisites</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#24-project-structure">2.4. Project Structure</a><br>
   </div>
 </details>
 &nbsp;
 
 <details>
-  <summary><a href="#3-journal-templates"><i><b>3. Journal's LaTeX Templates</b></i></a></summary>
+  <summary><a href="#3-tutorials"><i><b>3. Tutorials</b></i></a></summary>
   <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-acm-template">3.1 ACM Template</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-ieee-template">3.2 IEEE Template</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-usenix-template">3.3 USENIX Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-docker-compose-setup">3.1 Docker Compose Setup</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-fix-cursor-chat-screenshot-wsl">3.2 Fix Cursor Chat Screenshot in WSL</a><br>
   </div>
 </details>
 &nbsp;
 
 <details>
-  <summary><a href="#4-getting-started"><i><b>4. Getting Started</b></i></a></summary>
+  <summary><a href="#4-journal-templates"><i><b>4. Journal's LaTeX Templates</b></i></a></summary>
   <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-prerequisites">4.1 Prerequisites</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-quick-start">4.2 Quick Start</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-vs-code-extensions">4.3 VS Code Extensions</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-acm-template">4.1 ACM Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-ieee-template">4.2 IEEE Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-usenix-template">4.3 USENIX Template</a><br>
   </div>
 </details>
 &nbsp;
 
 <details>
-  <summary><a href="#5-features"><i><b>5. Features</b></i></a></summary>
+  <summary><a href="#5-getting-started"><i><b>5. Getting Started</b></i></a></summary>
   <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#51-development-environment">5.1 Development Environment</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#52-build-system">5.2 Build System</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#53-quality-tools">5.3 Quality Tools</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#54-advantages-over-overleaf">5.4 Advantages Over Overleaf</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#51-prerequisites">5.1 Prerequisites</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#52-quick-start">5.2 Quick Start</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#53-vs-code-extensions">5.3 VS Code Extensions</a><br>
   </div>
 </details>
 &nbsp;
@@ -83,7 +83,48 @@ Next-generation LaTeX development with key advantages over Overleaf:
 
 ---
 
-# 1. About This Repository
+# 1. Features
+
+## 1.1 Development Environment
+- Containerized LaTeX environment
+- Live preview
+- AI assistance with Copilot
+- Automatic formatting
+- Spell checking
+- Error detection
+
+## 1.2 Build System
+- Automated builds with GitHub Actions
+- Continuous Integration
+- Quality checks
+- PDF generation
+- PDF/A for archival
+
+## 1.3 Quality Tools
+- LaTeX linting
+- Style checking
+- Grammar checking
+- Reference validation
+- Health reports
+
+## 1.4 Advantages Over Overleaf
+
+### Developer-First Experience
+- **Local Development**: Work offline with full functionality
+- **Modern Editor**: Full VS Code/Cursor experience (snippets, multi-cursor editing, integrated terminal)
+- **AI Assistance**: Native GitHub Copilot integration for intelligent writing assistance
+- **Git Workflow**: Proper version control with branching, PR reviews, and CI/CD
+- **Extensions**: Access to your favorite editor extensions and customizations
+
+### Enhanced Performance and Control
+- **Speed**: Faster compilation with local processing power
+- **No Subscription**: One-time setup, no recurring fees
+- **Privacy**: Keep sensitive documents on your system
+- **Package Freedom**: Install any LaTeX package without limitations
+- **Customization**: Full control over LaTeX installation and configurations
+- **Docker Integration**: Consistent environment across any machine
+
+# 2. About This Repository
 
 This repository provides a next-generation LaTeX development environment designed specifically for developers and tech professionals. It revolutionizes the document writing experience by combining:
 
@@ -93,7 +134,7 @@ This repository provides a next-generation LaTeX development environment designe
 
 By merging modern software development workflows with academic writing, this project bridges the gap between traditional document preparation systems (like Overleaf) and the powerful tooling that developers are accustomed to using daily.
 
-## 1.1. Who Is This For?
+## 2.1. Who Is This For?
 
 This repository is ideal for:
 
@@ -105,7 +146,7 @@ This repository is ideal for:
 
 The templates and tools are particularly valuable for professionals who want the power of AI assistance and modern development practices in their document creation process.
 
-## 1.2. What Will You Learn?
+## 2.2. What Will You Learn?
 
 By using this repository, you will:
 
@@ -117,7 +158,7 @@ By using this repository, you will:
 - Leverage the full power of VS Code/Cursor extensions for writing
 - Create professional publications using journal-specific templates
 
-## 1.3. Prerequisites
+## 2.3. Prerequisites
 
 **No specialized LaTeX knowledge required!** To get started, you only need:
 
@@ -128,7 +169,7 @@ That's it! The containerized environment handles all LaTeX installations, packag
 
 If you already have experience with LaTeX or Docker, you can skip directly to the templates or customize the environment to your preferences.
 
-## 1.4. Project Structure
+## 2.4. Project Structure
 
 ```
 Folder PATH listing
@@ -186,7 +227,7 @@ Folder PATH listing
 │       README.md             <-- Project overview
 ```
 
-# 2. Tutorials
+# 3. Tutorials
 
 The `2_Tutorials` directory contains helpful guides and tutorials to get you started with LaTeX development. These tutorials cover various aspects from basic setup to advanced usage techniques.
 
@@ -197,27 +238,27 @@ Current tutorials include:
 
 If you have specific tutorial requests, please feel free to suggest them through GitHub issues.
 
-# 3. Journal's LaTeX Templates
+# 4. Journal's LaTeX Templates
 
 The `3_Journal_Templates` directory provides ready-to-use LaTeX templates for various academic journals and publication formats. These templates follow the official formatting guidelines for each publisher, saving you time and ensuring your submissions meet all requirements.
 
 Currently available templates include:
 
-## 3.1 ACM Template
+## 4.1 ACM Template
 The Association for Computing Machinery (ACM) template follows the official ACM formatting guidelines. It includes:
 - Proper font styles and sizes
 - Correct citation format
 - Column layout according to ACM requirements
 - Section formatting that meets ACM standards
 
-## 3.2 IEEE Template
+## 4.2 IEEE Template
 The Institute of Electrical and Electronics Engineers (IEEE) template is designed for conference and journal submissions. Features include:
 - IEEE-compliant formatting
 - Bibliography style matching IEEE requirements
 - Figure and table layouts optimized for IEEE publications
 - Proper header and footer formatting
 
-## 3.3 USENIX Template
+## 4.3 USENIX Template
 The USENIX template is tailored for USENIX conference submissions. It provides:
 - USENIX-approved layouts and formatting
 - Proper citation styles
@@ -226,14 +267,14 @@ The USENIX template is tailored for USENIX conference submissions. It provides:
 
 Additional templates will be added based on community needs. Each template is maintained to stay current with the latest publisher requirements.
 
-# 4. Getting Started
+# 5. Getting Started
 
-## 4.1 Prerequisites
+## 5.1 Prerequisites
 - VS Code
 - Docker Desktop
 - Git
 
-## 4.2 Quick Start
+## 5.2 Quick Start
 Getting started with LaTeX Development Copilot is simple:
 
 1. **Prerequisites**: Install [VS Code](https://code.visualstudio.com/), [Docker Desktop](https://www.docker.com/products/docker-desktop/), and [Git](https://git-scm.com/downloads)
@@ -254,54 +295,13 @@ Getting started with LaTeX Development Copilot is simple:
 
 For detailed instructions, see the tutorials in the `2_Tutorials` directory.
 
-## 4.3 VS Code Extensions
+## 5.3 VS Code Extensions
 Recommended extensions will be automatically installed in the dev container:
 - LaTeX Workshop
 - GitHub Copilot
 - Code Spell Checker
 - GitLens
 - Docker
-
-# 5. Features
-
-## 5.1 Development Environment
-- Containerized LaTeX environment
-- Live preview
-- AI assistance with Copilot
-- Automatic formatting
-- Spell checking
-- Error detection
-
-## 5.2 Build System
-- Automated builds with GitHub Actions
-- Continuous Integration
-- Quality checks
-- PDF generation
-- PDF/A for archival
-
-## 5.3 Quality Tools
-- LaTeX linting
-- Style checking
-- Grammar checking
-- Reference validation
-- Health reports
-
-## 5.4 Advantages Over Overleaf
-
-### Developer-First Experience
-- **Local Development**: Work offline with full functionality
-- **Modern Editor**: Full VS Code/Cursor experience (snippets, multi-cursor editing, integrated terminal)
-- **AI Assistance**: Native GitHub Copilot integration for intelligent writing assistance
-- **Git Workflow**: Proper version control with branching, PR reviews, and CI/CD
-- **Extensions**: Access to your favorite editor extensions and customizations
-
-### Enhanced Performance and Control
-- **Speed**: Faster compilation with local processing power
-- **No Subscription**: One-time setup, no recurring fees
-- **Privacy**: Keep sensitive documents on your system
-- **Package Freedom**: Install any LaTeX package without limitations
-- **Customization**: Full control over LaTeX installation and configurations
-- **Docker Integration**: Consistent environment across any machine
 
 # 6. Acknowledgments
 
