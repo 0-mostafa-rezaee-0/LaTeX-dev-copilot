@@ -14,6 +14,82 @@ This will create your own copy of this project, which you can modify freely — 
 A collection of modern LaTeX templates optimized for developers and tech professionals who prefer working with VS Code, Docker, and modern development tools.
 </div>
 
+## ⚡ Quick Start
+
+Getting started with LaTeX Development Copilot is simple:
+
+1. **Prerequisites**: Install [VS Code](https://code.visualstudio.com/), [Docker Desktop](https://www.docker.com/products/docker-desktop/), and [Git](https://git-scm.com/downloads)
+
+2. **Setup Project**:
+   ```bash
+   # Clone this repository 
+   git clone https://github.com/yourusername/LaTeX-dev-copilot.git
+   cd LaTeX-dev-copilot
+   ```
+
+3. **Start Environment**:
+   - Open the project in VS Code: `code .`
+   - When prompted, click "Reopen in Container" to start the dev container
+   - Choose a template and start writing!
+
+4. **That's it!** The containerized environment includes all LaTeX dependencies, extensions, and tools you need.
+
+For detailed instructions, see the tutorials in the `2_Tutorials` directory.
+
+***Table of Contents***
+
+<details>
+  <summary><a href="#1-about-this-repository"><i><b>1. About This Repository</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-who-is-this-for">1.1. Who Is This For?</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-what-will-you-learn">1.2. What Will You Learn?</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#13-prerequisites">1.3. Prerequisites</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#14-project-structure">1.4. Project Structure</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#2-templates"><i><b>2. Templates</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-flexitex-template">2.1 FlexiTeX Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-scientific-paper-template">2.2 Scientific Paper Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-dissertate-template">2.3 Dissertate Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#24-research-paper-template">2.4 Research Paper Template</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#3-getting-started"><i><b>3. Getting Started</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-prerequisites">3.1 Prerequisites</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-quick-start">3.2 Quick Start</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-vs-code-extensions">3.3 VS Code Extensions</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#4-features"><i><b>4. Features</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-development-environment">4.1 Development Environment</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-build-system">4.2 Build System</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-quality-tools">4.3 Quality Tools</a><br>
+  </div>
+</details>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#5-acknowledgments"><i><b>5. Acknowledgments</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#6-contact-information"><i><b>6. Contact Information</b></i></a>
+</div>
+&nbsp;
+
 # 1. About This Repository
 
 This repository provides a comprehensive development environment for LaTeX document creation tailored specifically for software developers and tech professionals. It bridges the gap between traditional academic document preparation and modern development workflows by integrating containerized environments, version control, and AI assistance.
@@ -209,17 +285,13 @@ Recommended extensions will be automatically installed in the dev container:
 - Reference validation
 - Health reports
 
-# 5. Contributing
-
-Contributions are welcome! Please read our contributing guidelines before submitting pull requests.
-
-# 6. License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-# 7. Acknowledgments
+# 5. Acknowledgments
 
 - FlexiTeX template adapted from GTkernel-PaperFactory
 - Scientific Paper template adapted from JDLanctot
 - Dissertate template adapted from suchow
 - Research Paper template adapted from aalekhpatel07
+
+# 6. Contact Information
+
+For questions not addressed in the resources above, please connect with [Mostafa Rezaee](https://www.linkedin.com/in/mostafa-rezaee/) on LinkedIn for personalized assistance.
