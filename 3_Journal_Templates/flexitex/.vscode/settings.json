@@ -1,0 +1,46 @@
+{
+  "latex-workshop.latex.recipe.default": "latexmk",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "make",
+      "command": "make",
+      "args": [],
+      "env": {}
+    },
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ],
+      // If you put your styles in their own directory...
+      // "env": {
+      //   "TEXINPUTS": ".:./styles/:",
+      //   "BSTINPUTS": ".:./styles/:"
+      // }
+    },
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "make",
+      "tools": [
+        "make"
+      ]
+    },
+    {
+      "name": "latexmk",
+      "tools": [
+        "latexmk"
+      ],
+    },
+  ],
+  "editor.formatOnSave": true,
+  "[latex]": {
+    "editor.defaultFormatter": "mathematic.vscode-latex"
+  }
+}
