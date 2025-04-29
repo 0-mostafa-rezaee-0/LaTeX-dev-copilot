@@ -31,13 +31,13 @@ This directory serves as a repository for archived LaTeX projects and papers. It
 
 ```
 Folder PATH listing
-+---1_README_images           <-- Images used in README documentation
-│       README.md             <-- Documentation for README images
-│       banner.png            <-- Banner image for documentation
++---1_README_images               <-- Images used in README documentation
+│       README.md                 <-- Documentation for README images
+│       banner.png                <-- Banner image for documentation
 │
-        DDPM_Laryngeal_Springer_2025-04-29.zip <-- Archived Laryngeal paper for Springer
-        DDPM_X-Ray_ArXiv_2025-04-29.zip <-- Archived X-Ray paper for ArXiv
-        README.md             <-- Archive directory documentation
+        DDPM_Laryngeal_Spring...  <-- Archived Laryngeal paper for Springer
+        DDPM_X-Ray_ArXiv_2025...  <-- Archived X-Ray paper for ArXiv
+        README.md                 <-- Archive directory documentation
 ``` 
 # 2. Archive Guidelines
 
