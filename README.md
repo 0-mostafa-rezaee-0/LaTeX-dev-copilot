@@ -128,20 +128,19 @@ Folder PATH listing
 │   +---1_README_images       <-- Images used in README documentation
 │   │       README.md         <-- Documentation for README images
 │   │       banner.png        <-- Banner image for documentation
-│   │       banner.png:Zone.Identifier <-- Windows metadata file
 │   │
-│       DDPM_Laryngeal_Springer_2025-04-29.zip <-- Archived Laryngeal paper for Springer
-│       DDPM_X-Ray_ArXiv_2025-04-29.zip <-- Archived X-Ray paper for ArXiv
+│       DDPM_Laryngeal_...    <-- Archived Laryngeal paper for Springer
+│       DDPM_X-Ray_ArXi...    <-- Archived X-Ray paper for ArXiv
 │       README.md             <-- Documentation for archived materials
 │
 +---2_Tutorials               <-- LaTeX tutorials and learning resources
-│       docker-compose-tutorial.md <-- Tutorial for Docker Compose setup
-│       Fix_Cursor_Chat_Screenshot_Pasting_in_WSL.md <-- Guide for fixing screenshot pasting in WSL
+│       docker-compos...      <-- Tutorial for Docker Compose setup
+│       Fix_Cursor_Ch...      <-- Guide for fixing screenshot pasting in WSL
 │       README.md             <-- Documentation for tutorials
 │
 +---3_Journal_Templates       <-- Templates for various academic journals
 │   +---acm                   <-- ACM journal template
-│   │       acmart-primary.zip <-- ACM official template package
+│   │       acmart-prim...    <-- ACM official template package
 │   │       acmart.pdf        <-- ACM style documentation
 │   │       README.md         <-- Documentation for ACM template
 │   │
@@ -155,11 +154,11 @@ Folder PATH listing
 │
 +---4_Custom_Fonts            <-- Custom font resources and configurations
 │       Inter.zip             <-- Inter font package
-│       Inter-VariableFont_opsz,wght.ttf <-- Inter variable font (regular)
-│       Inter-Italic-VariableFont_opsz,wght.ttf <-- Inter variable font (italic)
-│       Inter,Montserrat.zip  <-- Combined font package
-│       Montserrat-VariableFont_wght.ttf <-- Montserrat variable font (regular)
-│       Montserrat-Italic-VariableFont_wght.ttf <-- Montserrat variable font (italic)
+│       Inter-Variab...       <-- Inter variable font (regular)
+│       Inter-Italic...       <-- Inter variable font (italic)
+│       Inter,Monts...        <-- Combined font package
+│       Montserrat-...        <-- Montserrat variable font (regular)
+│       Montserrat-...        <-- Montserrat variable font (italic)
 │       README.md             <-- Documentation for custom fonts
 │
 +---Article-1                 <-- Article project 1 (empty directory)
