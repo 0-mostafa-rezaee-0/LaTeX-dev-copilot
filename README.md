@@ -17,35 +17,35 @@ This repository contains carefully curated LaTeX templates designed specifically
 
 ## 2.1 FlexiTeX Template
 Modern template with full development tooling:
-- 🐳 Docker container with all dependencies
-- 🤖 GitHub Copilot support
-- 🔄 GitHub Actions for CI/CD
-- ✨ Automatic formatting and linting
-- 📄 Multiple style support (IEEE, ACM, USENIX)
-- 🎯 VS Code integration
+- Docker container with all dependencies
+- GitHub Copilot support
+- GitHub Actions for CI/CD
+- Automatic formatting and linting
+- Multiple style support (IEEE, ACM, USENIX)
+- VS Code integration
 
 ## 2.2 Scientific Paper Template
 Web-like project structure for better organization:
-- 📁 Modular file organization
-- 🖼️ Separate figures directory
-- 📚 Bibliography management
-- 🎨 Modern styling options
-- 📊 Enhanced table support
+- Modular file organization
+- Separate figures directory
+- Bibliography management
+- Modern styling options
+- Enhanced table support
 
 ## 2.3 Dissertate Template
 Beautiful typography for long-form technical writing:
-- 📖 Clean, modern design
-- 🎓 Multiple institution support
-- 📑 Chapter organization
-- 🎯 Perfect for technical documentation
-- 🖋️ Professional typography
+- Clean, modern design
+- Multiple institution support
+- Chapter organization
+- Perfect for technical documentation
+- Professional typography
 
 ## 2.4 Research Paper Template
 Minimalist template for quick technical writeups:
-- 🚀 Fast setup
-- ☁️ Cloud-ready (Overleaf support)
-- 📝 Conference paper format
-- 📊 Technical report layout
+- Fast setup
+- Cloud-ready (Overleaf support)
+- Conference paper format
+- Technical report layout
 
 # 3. Getting Started
 
@@ -81,26 +81,26 @@ Recommended extensions will be automatically installed in the dev container:
 # 4. Features
 
 ## 4.1 Development Environment
-- 🐳 Containerized LaTeX environment
-- 🔄 Live preview
-- 🤖 AI assistance with Copilot
-- ✨ Automatic formatting
-- 🔍 Spell checking
-- 🐛 Error detection
+- Containerized LaTeX environment
+- Live preview
+- AI assistance with Copilot
+- Automatic formatting
+- Spell checking
+- Error detection
 
 ## 4.2 Build System
-- 📦 Automated builds with GitHub Actions
-- 🔄 Continuous Integration
-- 📊 Quality checks
-- 📄 PDF generation
-- 🗄️ PDF/A for archival
+- Automated builds with GitHub Actions
+- Continuous Integration
+- Quality checks
+- PDF generation
+- PDF/A for archival
 
 ## 4.3 Quality Tools
-- 🔍 LaTeX linting
-- ✅ Style checking
-- 📝 Grammar checking
-- 🎯 Reference validation
-- 📊 Health reports
+- LaTeX linting
+- Style checking
+- Grammar checking
+- Reference validation
+- Health reports
 
 # 5. Contributing
 

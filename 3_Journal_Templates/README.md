@@ -20,11 +20,11 @@ Perfect for tech professionals who want a modern development environment:
 - Linting and quality checks
 
 ### Key Features
-- 🐳 Containerized LaTeX environment
-- 🤖 GitHub Copilot support
-- 🔄 Automated builds
-- ✨ Code formatting
-- 📊 Health reports
+- Containerized LaTeX environment
+- GitHub Copilot support
+- Automated builds
+- Code formatting
+- Health reports
 
 ## 1.2 Scientific Paper Template
 **Source**: [JDLanctot/latex_template](https://github.com/JDLanctot/latex_template)
@@ -37,11 +37,11 @@ Organized like a modern web project for better maintainability:
 - Modern styling options
 
 ### Key Features
-- 📁 Web-like directory structure
-- 🖼️ Dedicated figures directory
-- 📚 Reference management
-- 🎨 Customizable styling
-- 📊 Enhanced tables
+- Web-like directory structure
+- Dedicated figures directory
+- Reference management
+- Customizable styling
+- Enhanced tables
 
 ## 1.3 Dissertate Template
 **Source**: [suchow/Dissertate](https://github.com/suchow/Dissertate)
@@ -54,11 +54,11 @@ Beautiful typography and professional design:
 - Used by numerous universities worldwide
 
 ### Key Features
-- 📖 Modern design
-- 🎓 Institution templates
-- 📑 Chapter organization
-- 🎯 Technical documentation
-- 🖋️ Typography focus
+- Modern design
+- Institution templates
+- Chapter organization
+- Technical documentation
+- Typography focus
 
 ## 1.4 Research Paper Template
 **Source**: [aalekhpatel07/ResearchPaperLaTeXTemplate](https://github.com/aalekhpatel07/ResearchPaperLaTeXTemplate)
@@ -71,11 +71,11 @@ Minimalist template for quick technical papers:
 - Easy customization
 
 ### Key Features
-- 🚀 Quick start
-- ☁️ Overleaf compatible
-- 📝 Conference ready
-- 📊 Report formats
-- ⚡ Minimal setup
+- Quick start
+- Overleaf compatible
+- Conference ready
+- Report formats
+- Minimal setup
 
 # 2. Usage Instructions
 
@@ -88,10 +88,10 @@ Minimalist template for quick technical papers:
 
 | Template | Best For | Setup Complexity | Docker Ready |
 |----------|----------|------------------|--------------|
-| FlexiTeX | Modern dev workflow | Medium | ✅ |
-| Scientific | Organized projects | Low | ✅ |
-| Dissertate | Long documents | Low | ✅ |
-| Research | Quick papers | Very Low | ✅ |
+| FlexiTeX | Modern dev workflow | Medium | Yes |
+| Scientific | Organized projects | Low | Yes |
+| Dissertate | Long documents | Low | Yes |
+| Research | Quick papers | Very Low | Yes |
 
 # 4. Additional Resources
 
