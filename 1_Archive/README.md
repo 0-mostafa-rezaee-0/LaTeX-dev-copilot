@@ -1,8 +1,9 @@
-<h1 align="center">Project Archives</h1>
+<h1 align="center">Archived Projects</h1>
 
-<!-- TOC -->
+This directory serves as a repository for archived LaTeX projects and papers. It maintains a historical record of completed work and serves as a reference for future projects.
+
+---
 ***Table of Contents***
-
 
 <div>
   &nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-1-directory-contents"><i><b>1. 1. Directory Contents</b></i></a>
@@ -29,10 +30,7 @@
 </div>
 &nbsp;
 
-<!-- /TOC -->
-
-
-This directory serves as a repository for archived LaTeX projects and papers. It maintains a historical record of completed work and serves as a reference for future projects.
+---
 
 # 1. Directory Contents
 
@@ -71,7 +69,6 @@ Folder PATH listing
 +---1_README_images           <-- Images used in README documentation
 │       README.md             <-- Documentation for README images
 │       banner.png            <-- Banner image for documentation
-│       banner.png:Zone.Identifier <-- Windows metadata file
 │
         DDPM_Laryngeal_Springer_2025-04-29.zip <-- Archived Laryngeal paper for Springer
         DDPM_X-Ray_ArXiv_2025-04-29.zip <-- Archived X-Ray paper for ArXiv
