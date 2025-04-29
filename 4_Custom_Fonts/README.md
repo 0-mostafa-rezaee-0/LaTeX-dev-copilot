@@ -54,3 +54,16 @@ If you'd like to contribute a font:
 2. Include all necessary font files and variations
 3. Add font documentation and usage examples
 4. Submit a pull request with your contribution
+
+# 5. Directory Structure
+
+```
+Folder PATH listing
+        Inter.zip                             <-- Inter font package
+        Inter-VariableFont_opsz,wght.ttf      <-- Inter variable font (regular)
+        Inter-Italic-VariableFont_opsz,wght.ttf <-- Inter variable font (italic)
+        Inter,Montserrat.zip                  <-- Combined font package
+        Montserrat-VariableFont_wght.ttf      <-- Montserrat variable font (regular)
+        Montserrat-Italic-VariableFont_wght.ttf <-- Montserrat variable font (italic)
+        README.md                             <-- Font collection documentation
+```

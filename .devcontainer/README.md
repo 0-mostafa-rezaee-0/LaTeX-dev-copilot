@@ -36,4 +36,13 @@ If you encounter issues with PDF compilation:
 1. Check that LaTeX Workshop is properly installed
 2. Try manual compilation using the LaTeX Workshop sidebar (click the build icon)
 3. Check for syntax errors in your .tex files
-4. Ensure the build directory exists (`mkdir -p build` in terminal if needed) 
+4. Ensure the build directory exists (`mkdir -p build` in terminal if needed)
+
+# 5. Directory Structure
+
+```
+Folder PATH listing
+        devcontainer.json     <-- VS Code Dev Container configuration
+        docker-compose.yml    <-- Docker Compose configuration for the dev container
+        README.md             <-- Dev Container documentation
+``` 

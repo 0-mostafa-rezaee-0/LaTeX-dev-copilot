@@ -36,4 +36,11 @@ Official USENIX conference paper templates and style files.
 # 4. Reference Links
 
 - [USENIX Templates Page](https://www.usenix.org/conferences/author-resources/paper-templates)
-- [USENIX Author Guidelines](https://www.usenix.org/conferences/author-resources) 
+- [USENIX Author Guidelines](https://www.usenix.org/conferences/author-resources)
+
+# 5. Directory Structure
+
+```
+Folder PATH listing
+        README.md             <-- USENIX template documentation
+``` 

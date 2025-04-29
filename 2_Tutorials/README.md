@@ -38,3 +38,12 @@ If you'd like to contribute a tutorial:
 2. Include clear examples and code snippets
 3. Add necessary screenshots or diagrams
 4. Submit a pull request with your contribution 
+
+# 5. Directory Structure
+
+```
+Folder PATH listing
+        docker-compose-tutorial.md    <-- Tutorial for Docker Compose setup
+        Fix_Cursor_Chat_Screenshot_Pasting_in_WSL.md <-- Guide for fixing screenshot pasting in WSL
+        README.md                     <-- Tutorial directory documentation
+``` 

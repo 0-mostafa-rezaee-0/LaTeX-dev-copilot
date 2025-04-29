@@ -22,3 +22,12 @@ Images should follow a clear naming convention:
 - Use PNG format for screenshots and diagrams
 - Use descriptive filenames
 - Include alt text suggestions in the commit message when adding images
+
+# 3. Directory Structure
+
+```
+Folder PATH listing
+        banner.png            <-- Banner image for documentation
+        banner.png:Zone.Identifier <-- Windows metadata file
+        README.md             <-- Documentation for image resources
+```

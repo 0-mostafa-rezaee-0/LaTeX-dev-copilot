@@ -114,3 +114,21 @@ If you have suggestions for additional templates or improvements, please submit 
 2. Lanctot, J.D. (2025). LaTeX Template for quicker scientific writing. GitHub. https://github.com/JDLanctot/latex_template
 3. Suchow, J. (2025). Dissertate: Beautiful LaTeX dissertation templates. GitHub. https://github.com/suchow/Dissertate
 4. Patel, A. (2025). ResearchPaperLaTeXTemplate. GitHub. https://github.com/aalekhpatel07/ResearchPaperLaTeXTemplate
+
+# 7. Directory Structure
+
+```
+Folder PATH listing
++---acm                       <-- ACM journal template files
+│       acmart-primary.zip    <-- ACM official template package
+│       acmart.pdf            <-- ACM style documentation
+│       README.md             <-- ACM template documentation
+│
++---ieee                      <-- IEEE journal template files
+│       README.md             <-- IEEE template documentation
+│
++---usenix                    <-- USENIX journal template files
+│       README.md             <-- USENIX template documentation
+│
+        README.md             <-- Journal templates overview
+```

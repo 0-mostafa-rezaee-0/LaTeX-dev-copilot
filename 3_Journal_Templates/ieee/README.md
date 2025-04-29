@@ -36,4 +36,11 @@ Official IEEE conference paper templates and style files.
 # 4. Reference Links
 
 - [IEEE Template Selector](https://template-selector.ieee.org/)
-- [IEEE Author Center](https://ieeeauthorcenter.ieee.org/) 
+- [IEEE Author Center](https://ieeeauthorcenter.ieee.org/)
+
+# 5. Directory Structure
+
+```
+Folder PATH listing
+        README.md             <-- IEEE template documentation
+``` 

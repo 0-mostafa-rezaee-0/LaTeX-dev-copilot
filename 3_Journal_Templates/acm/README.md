@@ -48,4 +48,13 @@ Official ACM conference paper templates and style files.
 # 4. Reference Links
 
 - [ACM Author Guidelines](https://www.acm.org/publications/authors/information-for-authors)
-- [Approved LaTeX Packages](https://www.acm.org/publications/authors/information-for-authors#approved-latex-packages) 
+- [Approved LaTeX Packages](https://www.acm.org/publications/authors/information-for-authors#approved-latex-packages)
+
+# 5. Directory Structure
+
+```
+Folder PATH listing
+        acmart-primary.zip    <-- ACM official template package
+        acmart.pdf            <-- ACM style documentation
+        README.md             <-- ACM template documentation
+``` 

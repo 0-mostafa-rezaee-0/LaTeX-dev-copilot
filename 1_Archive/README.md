@@ -31,3 +31,17 @@ To work with an archived project:
 1. Extract the ZIP file to a new directory
 2. Use the LaTeX development environment to compile
 3. Refer to the project's original documentation for specific build instructions 
+
+# 4. Directory Structure
+
+```
+Folder PATH listing
++---1_README_images           <-- Images used in README documentation
+│       README.md             <-- Documentation for README images
+│       banner.png            <-- Banner image for documentation
+│       banner.png:Zone.Identifier <-- Windows metadata file
+│
+        DDPM_Laryngeal_Springer_2025-04-29.zip <-- Archived Laryngeal paper for Springer
+        DDPM_X-Ray_ArXiv_2025-04-29.zip <-- Archived X-Ray paper for ArXiv
+        README.md             <-- Archive directory documentation
+``` 
