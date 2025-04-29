@@ -1,5 +1,37 @@
 <h1 align="center">Project Archives</h1>
 
+<!-- TOC -->
+***Table of Contents***
+
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-1-directory-contents"><i><b>1. 1. Directory Contents</b></i></a>
+</div>
+&nbsp;
+
+<details>
+  <summary><a href="#2-2-archive-guidelines"><i><b>2. 2. Archive Guidelines</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-21-each-archived-project-should-be">2.1. 2.1 Each archived project should be:</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-22-before-archiving">2.2. 2.2 Before archiving:</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-23-maintain-a-clean-archive-by">2.3. 2.3 Maintain a clean archive by:</a><br>
+  </div>
+</details>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#3-3-accessing-archived-projects"><i><b>3. 3. Accessing Archived Projects</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#4-4-directory-structure"><i><b>4. 4. Directory Structure</b></i></a>
+</div>
+&nbsp;
+
+<!-- /TOC -->
+
+
 This directory serves as a repository for archived LaTeX projects and papers. It maintains a historical record of completed work and serves as a reference for future projects.
 
 # 1. Directory Contents

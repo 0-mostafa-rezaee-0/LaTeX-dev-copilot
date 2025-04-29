@@ -1,5 +1,42 @@
 <h1 align="center">LaTeX Development Tutorials</h1>
 
+<!-- TOC -->
+***Table of Contents***
+
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-1-available-tutorials"><i><b>1. 1. Available Tutorials</b></i></a>
+</div>
+&nbsp;
+
+<details>
+  <summary><a href="#2-2-tutorial-categories"><i><b>2. 2. Tutorial Categories</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-21-environment-setup">2.1. 2.1 Environment Setup</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-22-latex-development">2.2. 2.2 LaTeX Development</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-23-advanced-features">2.3. 2.3 Advanced Features</a><br>
+  </div>
+</details>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#3-3-purpose"><i><b>3. 3. Purpose</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#4-4-contributing"><i><b>4. 4. Contributing</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#5-5-directory-structure"><i><b>5. 5. Directory Structure</b></i></a>
+</div>
+&nbsp;
+
+<!-- /TOC -->
+
+
 This directory contains comprehensive tutorials and guides for working with the LaTeX-dev-copilot project. These resources help users understand and effectively utilize the development environment, Docker setup, and LaTeX workflow.
 
 # 1. Available Tutorials

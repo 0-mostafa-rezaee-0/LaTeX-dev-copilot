@@ -1,5 +1,27 @@
 <h1 align="center">Resume Images & Screenshots</h1>
 
+<!-- TOC -->
+***Table of Contents***
+
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-1-image-naming-convention"><i><b>1. 1. Image Naming Convention</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-2-image-requirements"><i><b>2. 2. Image Requirements</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#3-3-directory-structure"><i><b>3. 3. Directory Structure</b></i></a>
+</div>
+&nbsp;
+
+<!-- /TOC -->
+
+
 This directory contains images used throughout the repository documentation, including:
 
 - Screenshots of ATS-optimized resume examples

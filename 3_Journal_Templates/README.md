@@ -1,5 +1,57 @@
 <h1 align="center">LaTeX Templates for Tech Professionals</h1>
 
+<!-- TOC -->
+***Table of Contents***
+
+
+<details>
+  <summary><a href="#1-1-recommended-templates"><i><b>1. 1. Recommended Templates</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#11-11-flexitex-template">1.1. 1.1 FlexiTeX Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#12-12-scientific-paper-template">1.2. 1.2 Scientific Paper Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#13-13-dissertate-template">1.3. 1.3 Dissertate Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#14-14-research-paper-template">1.4. 1.4 Research Paper Template</a><br>
+  </div>
+</details>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#2-2-usage-instructions"><i><b>2. 2. Usage Instructions</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#3-3-template-selection-guide"><i><b>3. 3. Template Selection Guide</b></i></a>
+</div>
+&nbsp;
+
+<details>
+  <summary><a href="#4-4-additional-resources"><i><b>4. 4. Additional Resources</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-41-style-files">4.1. 4.1 Style Files</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-42-documentation">4.2. 4.2 Documentation</a><br>
+  </div>
+</details>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#5-5-contributing"><i><b>5. 5. Contributing</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#6-6-references"><i><b>6. 6. References</b></i></a>
+</div>
+&nbsp;
+
+<div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#7-7-directory-structure"><i><b>7. 7. Directory Structure</b></i></a>
+</div>
+&nbsp;
+
+<!-- /TOC -->
+
+
 <div align="center">
 A curated collection of modern LaTeX templates specifically chosen for tech professionals who use VS Code, Docker, and modern development workflows.
 </div>
