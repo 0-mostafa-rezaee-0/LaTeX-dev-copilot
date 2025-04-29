@@ -7,7 +7,7 @@ This directory contains the configuration for the LaTeX development container us
 ***Table of Contents***
 
 <div>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-using-the-latex-environment"><i><b>1. Using the LaTeX Environment</b></i></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-directory-structure"><i><b>1. Directory Structure</b></i></a>
 </div>
 &nbsp;
 
@@ -36,14 +36,18 @@ This directory contains the configuration for the LaTeX development container us
 
 ---
 
-# 1. Using the LaTeX Environment
+# 1. Directory Structure
 
-Once the container is running and LaTeX Workshop is installed:
-
-1. Edit `.tex` files directly in the editor
-2. Save to trigger automatic compilation (configured in LaTeX Workshop)
-3. View the compiled PDF in the built-in tab viewer
-4. Use Cursor AI (`Ctrl+K` or `Cmd+K`) for LaTeX assistance
+```
+Folder PATH listing
++---1_README_images           <-- Images used in README documentation
+│       README.md             <-- Documentation for README images
+│       banner.png            <-- Banner image for documentation
+│
+        DDPM_Laryngeal_Springer_2025-04-29.zip <-- Archived Laryngeal paper for Springer
+        DDPM_X-Ray_ArXiv_2025-04-29.zip <-- Archived X-Ray paper for ArXiv
+        README.md             <-- Archive directory documentation
+```
 
 # 2. Directory Structure
 
