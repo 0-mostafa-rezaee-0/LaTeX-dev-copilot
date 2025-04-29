@@ -32,44 +32,52 @@ Next-generation LaTeX development with key advantages over Overleaf:
 &nbsp;
 
 <details>
-  <summary><a href="#2-templates"><i><b>2. Templates</b></i></a></summary>
+  <summary><a href="#2-tutorials"><i><b>2. Tutorials</b></i></a></summary>
   <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-flexitex-template">2.1 FlexiTeX Template</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-scientific-paper-template">2.2 Scientific Paper Template</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#23-dissertate-template">2.3 Dissertate Template</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#24-research-paper-template">2.4 Research Paper Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#21-docker-compose-setup">2.1 Docker Compose Setup</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#22-fix-cursor-chat-screenshot-wsl">2.2 Fix Cursor Chat Screenshot in WSL</a><br>
   </div>
 </details>
 &nbsp;
 
 <details>
-  <summary><a href="#3-getting-started"><i><b>3. Getting Started</b></i></a></summary>
+  <summary><a href="#3-journal-templates"><i><b>3. Journal's LaTeX Templates</b></i></a></summary>
   <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-prerequisites">3.1 Prerequisites</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-quick-start">3.2 Quick Start</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-vs-code-extensions">3.3 VS Code Extensions</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-acm-template">3.1 ACM Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-ieee-template">3.2 IEEE Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-usenix-template">3.3 USENIX Template</a><br>
   </div>
 </details>
 &nbsp;
 
 <details>
-  <summary><a href="#4-features"><i><b>4. Features</b></i></a></summary>
+  <summary><a href="#4-getting-started"><i><b>4. Getting Started</b></i></a></summary>
   <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-development-environment">4.1 Development Environment</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-build-system">4.2 Build System</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-quality-tools">4.3 Quality Tools</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#44-advantages-over-overleaf">4.4 Advantages Over Overleaf</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-prerequisites">4.1 Prerequisites</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-quick-start">4.2 Quick Start</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-vs-code-extensions">4.3 VS Code Extensions</a><br>
+  </div>
+</details>
+&nbsp;
+
+<details>
+  <summary><a href="#5-features"><i><b>5. Features</b></i></a></summary>
+  <div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#51-development-environment">5.1 Development Environment</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#52-build-system">5.2 Build System</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#53-quality-tools">5.3 Quality Tools</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#54-advantages-over-overleaf">5.4 Advantages Over Overleaf</a><br>
   </div>
 </details>
 &nbsp;
 
 <div>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#5-acknowledgments"><i><b>5. Acknowledgments</b></i></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#6-acknowledgments"><i><b>6. Acknowledgments</b></i></a>
 </div>
 &nbsp;
 
 <div>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#6-contact-information"><i><b>6. Contact Information</b></i></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#7-contact-information"><i><b>7. Contact Information</b></i></a>
 </div>
 &nbsp;
 
@@ -178,48 +186,54 @@ Folder PATH listing
 │       README.md             <-- Project overview
 ```
 
-# 2. Templates
+# 2. Tutorials
 
-## 2.1 FlexiTeX Template
-Modern template with full development tooling:
-- Docker container with all dependencies
-- GitHub Copilot support
-- GitHub Actions for CI/CD
-- Automatic formatting and linting
-- Multiple style support (IEEE, ACM, USENIX)
-- VS Code integration
+The `2_Tutorials` directory contains helpful guides and tutorials to get you started with LaTeX development. These tutorials cover various aspects from basic setup to advanced usage techniques.
 
-## 2.2 Scientific Paper Template
-Web-like project structure for better organization:
-- Modular file organization
-- Separate figures directory
-- Bibliography management
-- Modern styling options
-- Enhanced table support
+Current tutorials include:
+- Docker Compose setup guide
+- Fix for Cursor Chat Screenshot pasting in WSL
+- More tutorials will be added regularly to help you make the most of this development environment
 
-## 2.3 Dissertate Template
-Beautiful typography for long-form technical writing:
-- Clean, modern design
-- Multiple institution support
-- Chapter organization
-- Perfect for technical documentation
-- Professional typography
+If you have specific tutorial requests, please feel free to suggest them through GitHub issues.
 
-## 2.4 Research Paper Template
-Minimalist template for quick technical writeups:
-- Fast setup
-- Cloud-ready (Overleaf support)
-- Conference paper format
-- Technical report layout
+# 3. Journal's LaTeX Templates
 
-# 3. Getting Started
+The `3_Journal_Templates` directory provides ready-to-use LaTeX templates for various academic journals and publication formats. These templates follow the official formatting guidelines for each publisher, saving you time and ensuring your submissions meet all requirements.
 
-## 3.1 Prerequisites
+Currently available templates include:
+
+## 3.1 ACM Template
+The Association for Computing Machinery (ACM) template follows the official ACM formatting guidelines. It includes:
+- Proper font styles and sizes
+- Correct citation format
+- Column layout according to ACM requirements
+- Section formatting that meets ACM standards
+
+## 3.2 IEEE Template
+The Institute of Electrical and Electronics Engineers (IEEE) template is designed for conference and journal submissions. Features include:
+- IEEE-compliant formatting
+- Bibliography style matching IEEE requirements
+- Figure and table layouts optimized for IEEE publications
+- Proper header and footer formatting
+
+## 3.3 USENIX Template
+The USENIX template is tailored for USENIX conference submissions. It provides:
+- USENIX-approved layouts and formatting
+- Proper citation styles
+- Section organization following USENIX conventions
+- Figure and table styles that match USENIX requirements
+
+Additional templates will be added based on community needs. Each template is maintained to stay current with the latest publisher requirements.
+
+# 4. Getting Started
+
+## 4.1 Prerequisites
 - VS Code
 - Docker Desktop
 - Git
 
-## 3.2 Quick Start
+## 4.2 Quick Start
 Getting started with LaTeX Development Copilot is simple:
 
 1. **Prerequisites**: Install [VS Code](https://code.visualstudio.com/), [Docker Desktop](https://www.docker.com/products/docker-desktop/), and [Git](https://git-scm.com/downloads)
@@ -240,7 +254,7 @@ Getting started with LaTeX Development Copilot is simple:
 
 For detailed instructions, see the tutorials in the `2_Tutorials` directory.
 
-## 3.3 VS Code Extensions
+## 4.3 VS Code Extensions
 Recommended extensions will be automatically installed in the dev container:
 - LaTeX Workshop
 - GitHub Copilot
@@ -248,9 +262,9 @@ Recommended extensions will be automatically installed in the dev container:
 - GitLens
 - Docker
 
-# 4. Features
+# 5. Features
 
-## 4.1 Development Environment
+## 5.1 Development Environment
 - Containerized LaTeX environment
 - Live preview
 - AI assistance with Copilot
@@ -258,21 +272,21 @@ Recommended extensions will be automatically installed in the dev container:
 - Spell checking
 - Error detection
 
-## 4.2 Build System
+## 5.2 Build System
 - Automated builds with GitHub Actions
 - Continuous Integration
 - Quality checks
 - PDF generation
 - PDF/A for archival
 
-## 4.3 Quality Tools
+## 5.3 Quality Tools
 - LaTeX linting
 - Style checking
 - Grammar checking
 - Reference validation
 - Health reports
 
-## 4.4 Advantages Over Overleaf
+## 5.4 Advantages Over Overleaf
 
 ### Developer-First Experience
 - **Local Development**: Work offline with full functionality
@@ -289,13 +303,13 @@ Recommended extensions will be automatically installed in the dev container:
 - **Customization**: Full control over LaTeX installation and configurations
 - **Docker Integration**: Consistent environment across any machine
 
-# 5. Acknowledgments
+# 6. Acknowledgments
 
 - FlexiTeX template adapted from GTkernel-PaperFactory
 - Scientific Paper template adapted from JDLanctot
 - Dissertate template adapted from suchow
 - Research Paper template adapted from aalekhpatel07
 
-# 6. Contact Information
+# 7. Contact Information
 
 For questions not addressed in the resources above, please connect with [Mostafa Rezaee](https://www.linkedin.com/in/mostafa-rezaee/) on LinkedIn for personalized assistance.
