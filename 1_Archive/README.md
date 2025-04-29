@@ -6,7 +6,7 @@ This directory serves as a repository for archived LaTeX projects and papers. It
 ***Table of Contents***
 
 <div>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-1-directory-contents"><i><b>1. 1. Directory Contents</b></i></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#1-1-directory-structure"><i><b>1. 1. Directory Structure</b></i></a>
 </div>
 &nbsp;
 
@@ -25,19 +25,20 @@ This directory serves as a repository for archived LaTeX projects and papers. It
 </div>
 &nbsp;
 
-<div>
-  &nbsp;&nbsp;&nbsp;&nbsp;<a href="#4-4-directory-structure"><i><b>4. 4. Directory Structure</b></i></a>
-</div>
-&nbsp;
-
 ---
 
-# 1. Directory Contents
+# 1. Directory Structure
 
-- **DDPM_X-Ray_ArXiv_2025-04-29.zip**: Archived LaTeX project for X-Ray related paper submitted to ArXiv
-- **DDPM_Laryngeal_Springer_2025-04-29.zip**: Archived LaTeX project for Laryngeal related paper submitted to Springer
-- **1_README_images/**: Directory containing images and assets used in README documentation
-
+```
+Folder PATH listing
++---1_README_images           <-- Images used in README documentation
+│       README.md             <-- Documentation for README images
+│       banner.png            <-- Banner image for documentation
+│
+        DDPM_Laryngeal_Springer_2025-04-29.zip <-- Archived Laryngeal paper for Springer
+        DDPM_X-Ray_ArXiv_2025-04-29.zip <-- Archived X-Ray paper for ArXiv
+        README.md             <-- Archive directory documentation
+``` 
 # 2. Archive Guidelines
 
 ## 2.1 Each archived project should be:
@@ -62,15 +63,3 @@ To work with an archived project:
 2. Use the LaTeX development environment to compile
 3. Refer to the project's original documentation for specific build instructions 
 
-# 4. Directory Structure
-
-```
-Folder PATH listing
-+---1_README_images           <-- Images used in README documentation
-│       README.md             <-- Documentation for README images
-│       banner.png            <-- Banner image for documentation
-│
-        DDPM_Laryngeal_Springer_2025-04-29.zip <-- Archived Laryngeal paper for Springer
-        DDPM_X-Ray_ArXiv_2025-04-29.zip <-- Archived X-Ray paper for ArXiv
-        README.md             <-- Archive directory documentation
-``` 
