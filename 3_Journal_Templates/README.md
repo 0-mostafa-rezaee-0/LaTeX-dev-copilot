@@ -1,4 +1,4 @@
-# LaTeX Templates for Tech Professionals
+<h1 align="center">LaTeX Templates for Tech Professionals</h1>
 
 <div align="center">
 A curated collection of modern LaTeX templates specifically chosen for tech professionals who use VS Code, Docker, and modern development workflows.

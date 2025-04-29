@@ -1,4 +1,4 @@
-# LaTeX Development Templates with VS Code & Docker
+<h1 align="center">LaTeX Development Templates with VS Code & Docker</h1>
 
 <div align="center">
 A collection of modern LaTeX templates optimized for developers and tech professionals who prefer working with VS Code, Docker, and modern development tools.

@@ -1,4 +1,4 @@
-# Resume Images & Screenshots
+<h1 align="center">Resume Images & Screenshots</h1>
 
 This directory contains images used throughout the repository documentation, including:
 
@@ -8,7 +8,7 @@ This directory contains images used throughout the repository documentation, inc
 - Font comparison examples
 - Visual elements for documentation
 
-## Image Naming Convention
+# 1. Image Naming Convention
 
 Images should follow a clear naming convention:
 - `ats_example_[description].png` - Examples of ATS-optimized resumes
@@ -16,7 +16,7 @@ Images should follow a clear naming convention:
 - `comparison_[before_after_description].png` - Before/after comparisons
 - `diagram_[description].png` - Explanatory diagrams
 
-## Image Requirements
+# 2. Image Requirements
 
 - Keep images under 1MB when possible
 - Use PNG format for screenshots and diagrams
