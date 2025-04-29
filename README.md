@@ -1,3 +1,92 @@
+<h1 align="center">LaTeX-dev-copilot</h1>
+
+Next-generation LaTeX development: Copilot-powered writing and seamless live updates inside VS Code/Cursor, all Dockerized. Bye Overleaf, hello future.
+
+## 🚀 Quick Start
+
+1. **Prerequisites**:
+   - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+   - Install [Cursor](https://cursor.sh/) or VS Code
+
+2. **Clone and Start**:
+   ```bash
+   git clone <repository-url>
+   cd LaTeX-dev-copilot
+   docker-compose up -d --build
+   ```
+
+3. **Open in Cursor/VS Code**:
+   - Open the project in your editor
+   - Select "Reopen in Container" when prompted
+   - Start writing your LaTeX documents
+
+## 📁 Project Structure
+
+```
+LaTeX-dev-copilot/
+├── 1_Archive/              # Archived LaTeX projects and papers
+├── 2_Tutorials/           # Comprehensive guides and tutorials
+├── 3_Journal_Templates/   # Official journal LaTeX templates
+├── 4_Custom_Fonts/        # Collection of custom fonts for LaTeX
+├── Article-1/            # Example article directory
+├── .devcontainer/        # Development container configuration
+├── docker-compose.yml    # Docker configuration
+└── README.md            # Project documentation
+```
+
+## 🎯 Features
+
+- **AI-Powered Writing**: Integrated Copilot for intelligent LaTeX assistance
+- **Live Preview**: Real-time document updates as you type
+- **Dockerized Environment**: Consistent LaTeX setup across all platforms
+- **Journal Templates**: Ready-to-use templates for various academic journals
+- **Custom Fonts**: Curated collection of professional fonts
+- **Version Control**: Git integration for document management
+
+## 📚 Documentation
+
+- [Docker Setup Guide](2_Tutorials/docker-compose-tutorial.md)
+- [Journal Templates](3_Journal_Templates/README.md)
+- [Custom Fonts](4_Custom_Fonts/README.md)
+
+## 🔧 Development
+
+### Prerequisites
+- Docker Desktop
+- VS Code or Cursor
+- Git
+
+### Environment Setup
+1. Clone the repository
+2. Start the Docker container
+3. Open in VS Code/Cursor
+4. Select "Reopen in Container"
+
+### Adding New Articles
+1. Create a new directory in the root
+2. Copy necessary templates from `3_Journal_Templates`
+3. Add custom fonts from `4_Custom_Fonts` if needed
+4. Start writing your LaTeX document
+
+## 🤝 Contributing
+
+We welcome contributions! Please follow these steps:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [TeX Live](https://www.tug.org/texlive/) for the LaTeX distribution
+- [Cursor](https://cursor.sh/) for the AI-powered editor
+- All contributors and users of this project
+
 ## 🧰 How to Use This Template    
 Click the green **"Use this template"** button at the top of the page, then choose **"Create a new repository"**.   
 This will create your own copy of this project, which you can modify freely — no need to fork!   
