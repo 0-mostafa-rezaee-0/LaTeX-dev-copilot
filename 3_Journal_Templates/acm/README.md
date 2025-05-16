@@ -1,6 +1,11 @@
 <h1 align="center">ACM Conference Templates</h1>
 
-<!-- TOC -->
+<div align="center">
+Official ACM conference paper templates and style files.
+</div>
+
+---
+
 ***Table of Contents***
 
 
@@ -33,12 +38,6 @@
 </div>
 &nbsp;
 
-<!-- /TOC -->
-
-
-<div align="center">
-Official ACM conference paper templates and style files.
-</div>
 
 # 1. Available Files
 
