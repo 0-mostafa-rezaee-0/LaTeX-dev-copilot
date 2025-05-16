@@ -188,15 +188,6 @@ Folder PATH listing
 │   │
 │       README.md             <-- Documentation for journal templates
 │
-+---4_Custom_Fonts            <-- Custom font resources and configurations
-│       Inter.zip             <-- Inter font package
-│       Inter-Variab...       <-- Inter variable font (regular)
-│       Inter-Italic...       <-- Inter variable font (italic)
-│       Inter,Monts...        <-- Combined font package
-│       Montserrat-...        <-- Montserrat variable font (regular)
-│       Montserrat-...        <-- Montserrat variable font (italic)
-│       README.md             <-- Documentation for custom fonts
-│
 +---Article-1                 <-- Article project 1 (empty directory)
 │
 +---Article-2                 <-- Article project 2 (empty directory)
