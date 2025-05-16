@@ -16,6 +16,44 @@ Next-generation LaTeX development with key advantages over Overleaf:
 - **Full-context intelligence:** Unlike Overleaf, Copilot can see and analyze your entire project structure, including references, figures, and bibliography files, resulting in much more relevant and accurate suggestions
 - **Seamless live updates:** View your document changes in real-time without manually compiling — modifications to your LaTeX files instantly update in the preview, eliminating the compile-and-wait workflow required by Overleaf
 
+## Quick Start
+
+Getting started with LaTeX Development Copilot is simple:
+
+1. **Prerequisites**: Install [Docker Desktop](https://www.docker.com/products/docker-desktop/), [Cursor](https://cursor.sh/) or VS Code with Dev Containers extension
+
+2. **Clone Repository**:
+   ```bash
+   # Clone this repository 
+   git clone https://github.com/yourusername/LaTeX-dev-copilot.git
+   cd LaTeX-dev-copilot
+   ```
+
+3. **Open in Editor**:
+   - Open with Cursor: `cursor .` 
+   - Open with VS Code: `code .`
+   - Or use the editor's GUI to open the folder
+
+4. **Start Container (Two Methods)**:
+   
+   **Method 1 - Using Dev Containers (Recommended):**
+   - If prompted, select `Reopen in Container`
+   - If not prompted, press `Ctrl+Shift+P` then select `Dev Containers: Rebuild and Reopen in Container`
+   - **Shutdown**: Simply close the editor window when finished - it will automatically handle stopping the container
+   
+   **Method 2 - Using Docker Compose:**
+   - Start the container from the terminal: `docker-compose up -d --build`
+   - **Shutdown**: Simply close the editor window when finished - it will automatically handle stopping the container
+   
+5. **Edit LaTeX Files**:
+   - Navigate to the `3_Journal_Templates` directory and choose a template that matches your target journal
+   - Copy the template files to your working directory
+   - Click the play button in the top right to compile the `.tex` file. You only need to do this once - after that, it will compile automatically when you make changes
+   - Open the `.pdf` file next to your `.tex` file to view your document. Unlike Overleaf, you'll see all changes update instantly in the PDF as you edit
+   - All changes are automatically saved to your local workspace
+   - Use Copilot and other extensions to help you write better LaTeX code
+   - **Important:** Enable Auto Save in VS Code/Cursor by going to File > Auto Save. This prevents losing your work and only needs to be set up once - it will apply to all files and repositories
+
 ---
 
 ***Table of Contents***
@@ -46,16 +84,6 @@ Next-generation LaTeX development with key advantages over Overleaf:
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-acm-template">3.1 ACM Template</a><br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-ieee-template">3.2 IEEE Template</a><br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-usenix-template">3.3 USENIX Template</a><br>
-  </div>
-</details>
-&nbsp;
-
-<details>
-  <summary><a href="#4-getting-started"><i><b>4. Getting Started</b></i></a></summary>
-  <div>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#41-prerequisites">4.1 Prerequisites</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#42-quick-start">4.2 Quick Start</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#43-vs-code-extensions">4.3 VS Code Extensions</a><br>
   </div>
 </details>
 &nbsp;
@@ -225,42 +253,6 @@ The USENIX template is tailored for USENIX conference submissions. It provides:
 - Figure and table styles that match USENIX requirements
 
 Additional templates will be added based on community needs. Each template is maintained to stay current with the latest publisher requirements.
-
-# 4. Getting Started
-
-## 4.1 Prerequisites
-- VS Code
-- Docker Desktop
-- Git
-
-## 4.2 Quick Start
-Getting started with LaTeX Development Copilot is simple:
-
-1. **Prerequisites**: Install [VS Code](https://code.visualstudio.com/), [Docker Desktop](https://www.docker.com/products/docker-desktop/), and [Git](https://git-scm.com/downloads)
-
-2. **Setup Project**:
-   ```bash
-   # Clone this repository 
-   git clone https://github.com/yourusername/LaTeX-dev-copilot.git
-   cd LaTeX-dev-copilot
-   ```
-
-3. **Start Environment**:
-   - Open the project in VS Code: `code .`
-   - When prompted, click "Reopen in Container" to start the dev container
-   - Choose a template and start writing!
-
-4. **That's it!** The containerized environment includes all LaTeX dependencies, extensions, and tools you need.
-
-For detailed instructions, see the tutorials in the `2_Tutorials` directory.
-
-## 4.3 VS Code Extensions
-Recommended extensions will be automatically installed in the dev container:
-- LaTeX Workshop
-- GitHub Copilot
-- Code Spell Checker
-- GitLens
-- Docker
 
 # 5. Features
 
