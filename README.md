@@ -5,7 +5,7 @@ This will create your own copy of this project, which you can modify freely — 
 ---
 
 <p align="center">
-  <img src="1_Archive/1_README_images/banner.png" alt="banner" width="75%">
+  <img src="Archive/1_README_images/banner.png" alt="banner" width="75%">
 </p>
 
 <h1 align="center">LaTeX Development Copilot</h1>
