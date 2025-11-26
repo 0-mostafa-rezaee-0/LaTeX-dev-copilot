@@ -16,43 +16,83 @@ Next-generation LaTeX development with key advantages over Overleaf:
 - **Full-context intelligence:** Unlike Overleaf, Copilot can see and analyze your entire project structure, including references, figures, and bibliography files, resulting in much more relevant and accurate suggestions
 - **Seamless live updates:** View your document changes in real-time without manually compiling — modifications to your LaTeX files instantly update in the preview, eliminating the compile-and-wait workflow required by Overleaf
 
+Here is the polished version **inside a Markdown block**, with a **clear, highly visible emphasis** on the *Reopen in Container* popup and how easy it is to use.
+
 ## Quick Start
 
 Getting started with LaTeX Development Copilot is simple:
 
-1. **Prerequisites**: Install [Docker Desktop](https://www.docker.com/products/docker-desktop/), [Cursor](https://cursor.sh/) or VS Code with Dev Containers extension
+1. **Prerequisites**  
+   Install:  
+   - [Docker Desktop](https://www.docker.com/products/docker-desktop/)  
+   - Cursor **or** VS Code with the **Dev Containers** extension
 
-2. **Clone Repository**:
+2. **Clone Repository**
    ```bash
-   # Clone this repository 
    git clone https://github.com/yourusername/LaTeX-dev-copilot.git
    cd LaTeX-dev-copilot
+   ````
+
+3. **Open in Editor**
+
+   * Cursor: `cursor .`
+   * VS Code: `code .`
+   * Or open the folder from the GUI
+
+4. **Start Container (Two Methods)**
+
+   ### Method 1 — Dev Containers (Recommended)
+
+   As soon as you open the folder, **VS Code will show a popup in the bottom-left corner**:
+
+   👉 **REOPEN IN CONTAINER**
+
+   **Just click that button. That’s it. Enjoy.**
+   VS Code will automatically build and enter the full LaTeX development environment.
+
+   If the popup doesn’t appear, open the command palette:
+   `Ctrl+Shift+P` → **Dev Containers: Rebuild and Reopen in Container**
+
+   **Shutdown:** Simply close the editor window. The container stops automatically.
+
+   ### Method 2 — Docker Compose
+
+   ```bash
+   docker-compose up -d --build
    ```
 
-3. **Open in Editor**:
-   - Open with Cursor: `cursor .` 
-   - Open with VS Code: `code .`
-   - Or use the editor's GUI to open the folder
+   **Shutdown:** Close the editor window — the container will stop automatically.
 
-4. **Start Container (Two Methods)**:
-   
-   **Method 1 - Using Dev Containers (Recommended):**
-   - If prompted, select `Reopen in Container`
-   - If not prompted, press `Ctrl+Shift+P` then select `Dev Containers: Rebuild and Reopen in Container`
-   - **Shutdown**: Simply close the editor window when finished - it will automatically handle stopping the container
-   
-   **Method 2 - Using Docker Compose:**
-   - Start the container from the terminal: `docker-compose up -d --build`
-   - **Shutdown**: Simply close the editor window when finished - it will automatically handle stopping the container
-   
-5. **Edit LaTeX Files**:
-   - Navigate to the `3_Journal_Templates` directory and choose a template that matches your target journal
-   - Copy the template files to your working directory
-   - Click the play button in the top right to compile the `.tex` file. You only need to do this once - after that, it will compile automatically when you make changes
-   - Open the `.pdf` file next to your `.tex` file to view your document. Unlike Overleaf, you'll see all changes update instantly in the PDF as you edit
-   - All changes are automatically saved to your local workspace
-   - Use Copilot and other extensions to help you write better LaTeX code
-   - **Important:** Enable Auto Save in VS Code/Cursor by going to File > Auto Save. This prevents losing your work and only needs to be set up once - it will apply to all files and repositories
+---
+
+5. **Edit LaTeX Files**
+
+   * Go to the `3_Journal_Templates` directory and pick a journal template
+   * Copy the template into your working directory
+   * Click the **Compile (▶️)** button once; after that, it auto-builds on save
+   * Open the generated `.pdf` to see instant updates
+   * All work is saved locally
+   * Enable **File → Auto Save** to protect your progress across all projects
+
+---
+
+## Recommended LaTeX Extension for VS Code
+
+For the best LaTeX editing experience inside the container, install **LaTeX Workshop**.
+
+**Extension Info**
+
+* **Name:** LaTeX Workshop
+* **ID:** James-Yu.latex-workshop
+* **Marketplace:** Available on the VS Code Marketplace
+
+**Key Features**
+
+* Live PDF preview with forward & inverse sync
+* Auto-build on save
+* Syntax highlighting + rich snippet library
+* IntelliSense for citations, labels, references
+* Works seamlessly with Windows, WSL, and Dev Containers
 
 ---
 
