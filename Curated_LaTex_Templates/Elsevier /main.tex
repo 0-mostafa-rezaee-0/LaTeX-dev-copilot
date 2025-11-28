@@ -1,0 +1,171 @@
+\documentclass[final,5p,times,twocolumn]{elsarticle}
+% Water Research–style: 5p layout, two-column, Times font
+
+% ---------- Patch elsarticle title block to be left-aligned ----------
+\usepackage{etoolbox}
+\makeatletter
+% In elsarticle, the preprint/title page macro \pprintMaketitle wraps
+% title/authors/affiliation in a center environment.
+% We replace that center environment with a raggedright group.
+\patchcmd{\pprintMaketitle}{\begin{center}}{\begingroup\raggedright}{}{}
+\patchcmd{\pprintMaketitle}{\end{center}}{\par\endgroup}{}{}
+\makeatother
+
+% ---------- Encoding & language ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+
+% ---------- Math & symbols ----------
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{siunitx}
+
+% ---------- Figures & graphics ----------
+\usepackage{subcaption}
+\usepackage{float}
+
+% ---------- Tables ----------
+\usepackage{booktabs}
+\usepackage{multirow}
+
+% ---------- References ----------
+\biboptions{numbers,sort&compress}
+
+% ---------- Lists & helpers ----------
+\usepackage{enumitem}
+\usepackage{xcolor}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+
+% ---------- Shorthand commands ----------
+\newcommand{\MR}{Maumee River}
+\newcommand{\LE}{Lake Erie}
+\newcommand{\GLSM}{Grand Lake St.~Marys}
+\newcommand{\TP}{total phosphorus}
+\newcommand{\TN}{total nitrogen}
+\newcommand{\cHAB}{cyanobacterial harmful algal bloom}
+
+% ---------- Journal ----------
+\journal{Water Research (draft layout)}
+
+\begin{document}
+
+% =====================================================
+% Front matter
+% =====================================================
+
+\begin{frontmatter}
+
+\title{Concise and informative title of your manuscript}
+
+\author[utoledo]{Sara Mashhadi Nejad\corref{cor1}}
+\ead{sara.mashhadinejad@rockets.utoledo.edu}
+
+\author[utoledo]{Dae-Wook Kang}
+\ead{dae-wook.kang@utoledo.edu}
+
+\cortext[cor1]{Corresponding author.}
+
+\address[utoledo]{Department of Civil and Environmental Engineering,
+University of Toledo, Toledo, OH 43606, USA}
+
+\begin{abstract}
+Write a 150--250 word abstract summarizing:
+(i) background and motivation,
+(ii) objectives or hypotheses,
+(iii) main methods,
+(iv) key results, and
+(v) main conclusions.
+Avoid undefined abbreviations and citations in the abstract.
+\end{abstract}
+
+\begin{keyword}
+cyanobacterial blooms \sep river--lake continuum \sep Maumee River \sep Lake Erie \sep microbiome \sep hydrology
+\end{keyword}
+
+\end{frontmatter}
+
+% =====================================================
+% Main text
+% =====================================================
+
+\section{Introduction}
+Community detection and network analysis have been widely studied in complex systems,
+providing tools that are also increasingly used in ecological and environmental networks%
+~\cite{Fortunato2010,ZhangYeung2012}.
+
+\section{Materials and Methods}
+
+\subsection{Subsection title}
+% Placeholder for describing study area or system context.
+
+\subsection{Subsection title}
+% Placeholder for sampling approach or data acquisition.
+
+\subsection{Subsection title}
+% Placeholder for laboratory or analytical methods.
+
+\subsection{Subsection title}
+% Placeholder for DNA extraction, sequencing, or other workflows.
+
+\subsection{Subsection title}
+% Placeholder for statistical or computational analyses.
+
+\section{Results}
+
+\subsection{Subsection title}
+% Placeholder for physical and chemical results.
+
+\subsection{Subsection title}
+% Placeholder for biological or microbial results.
+
+\subsection{Subsection title}
+% Placeholder for connectivity, bloom dynamics, or other outcomes.
+
+\section{Discussion}
+
+\subsection{Subsection title}
+% Placeholder for interpreting drivers and mechanisms.
+
+\subsection{Subsection title}
+% Placeholder for linking findings to previous research.
+
+\subsection{Subsection title}
+% Placeholder for implications, management relevance, forecasting.
+
+\section{Conclusions}
+\begin{itemize}[leftmargin=*]
+  \item Placeholder for main conclusion.
+  \item Placeholder for scientific contribution.
+  \item Placeholder for future work.
+\end{itemize}
+
+% =====================================================
+% Back matter
+% =====================================================
+
+\section*{CRediT authorship contribution statement}
+
+\section*{Declaration of competing interest}
+The authors declare that they have no known competing financial interests or personal relationships
+that could have appeared to influence the work reported in this paper.
+
+\section*{Acknowledgments}
+
+% =====================================================
+% References
+% =====================================================
+
+\bibliographystyle{elsarticle-num}
+\bibliography{references}
+
+% =====================================================
+% Appendices
+% =====================================================
+
+\appendix
+
+\section{Supplementary figures}
+
+\section{Supplementary tables}
+
+\end{document}
