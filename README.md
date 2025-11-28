@@ -18,7 +18,7 @@ Next-generation LaTeX development with key advantages over Overleaf:
 
 Here is the polished version **inside a Markdown block**, with a **clear, highly visible emphasis** on the *Reopen in Container* popup and how easy it is to use.
 
-## Quick Start
+## 🚀 Quick Start
 
 Getting started with LaTeX Development Copilot is simple:
 
@@ -67,32 +67,34 @@ Getting started with LaTeX Development Copilot is simple:
 
 5. **Edit LaTeX Files**
 
-   * Go to the `3_Journal_Templates` directory and pick a journal template
+   * Go to the `Curated_LaTex_Templates` directory and pick a journal template
    * Copy the template into your working directory
    * Click the **Compile (▶️)** button once; after that, it auto-builds on save
    * Open the generated `.pdf` to see instant updates
    * All work is saved locally
    * Enable **File → Auto Save** to protect your progress across all projects
 
----
+6. **Install LaTeX Workshop Extension (Recommended)**
 
-## Recommended LaTeX Extension for VS Code
+   For the best LaTeX editing experience, install the **LaTeX Workshop** extension:
+   * **Name:** LaTeX Workshop
+   * **ID:** James-Yu.latex-workshop
+   * **Marketplace:** Available on the VS Code Marketplace
 
-For the best LaTeX editing experience inside the container, install **LaTeX Workshop**.
+   **Key Features:**
+   * Live PDF preview with forward & inverse sync
+   * Auto-build on save
+   * Syntax highlighting + rich snippet library
+   * IntelliSense for citations, labels, references
+   * Works seamlessly with Windows, WSL, and Dev Containers
 
-**Extension Info**
+7. **Fix Git Issues (If Needed)**
 
-* **Name:** LaTeX Workshop
-* **ID:** James-Yu.latex-workshop
-* **Marketplace:** Available on the VS Code Marketplace
-
-**Key Features**
-
-* Live PDF preview with forward & inverse sync
-* Auto-build on save
-* Syntax highlighting + rich snippet library
-* IntelliSense for citations, labels, references
-* Works seamlessly with Windows, WSL, and Dev Containers
+   If you encounter Git errors like "dubious ownership" or "cannot run ssh" when using `git pull` or `git push`, run the fix script:
+   ```bash
+   ./fix-git-ownership.sh
+   ```
+   This script fixes Git permission and SSH connection issues in the Docker container. You only need to run it once.
 
 ---
 
@@ -119,11 +121,12 @@ For the best LaTeX editing experience inside the container, install **LaTeX Work
 &nbsp;
 
 <details>
-  <summary><a href="#3-journal-templates"><i><b>3. Journal's LaTeX Templates</b></i></a></summary>
+  <summary><a href="#3-curated-latex-templates"><i><b>3. Curated LaTeX Templates</b></i></a></summary>
   <div>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#31-acm-template">3.1 ACM Template</a><br>
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#32-ieee-template">3.2 IEEE Template</a><br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-usenix-template">3.3 USENIX Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#33-elsevier-template">3.3 Elsevier Template</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#34-generic-templates">3.4 Generic Templates</a><br>
   </div>
 </details>
 &nbsp;
@@ -200,7 +203,7 @@ If you already have experience with LaTeX or Docker, you can skip directly to th
 
 ```
 Folder PATH listing
-+---1_Archive                 <-- Archived materials and resources
++---Archive                    <-- Archived materials and resources
 │   +---1_README_images       <-- Images used in README documentation
 │   │       README.md         <-- Documentation for README images
 │   │       banner.png        <-- Banner image for documentation
@@ -209,24 +212,26 @@ Folder PATH listing
 │       DDPM_X-Ray_ArXi...    <-- Archived X-Ray paper for ArXiv
 │       README.md             <-- Documentation for archived materials
 │
-+---2_Tutorials               <-- LaTeX tutorials and learning resources
-│       docker-compos...      <-- Tutorial for Docker Compose setup
-│       Fix_Cursor_Ch...      <-- Guide for fixing screenshot pasting in WSL
-│       README.md             <-- Documentation for tutorials
-│
-+---3_Journal_Templates       <-- Templates for various academic journals
++---Curated_LaTex_Templates   <-- Curated LaTeX templates for academic journals
 │   +---acm                   <-- ACM journal template
 │   │       acmart-prim...    <-- ACM official template package
 │   │       acmart.pdf        <-- ACM style documentation
 │   │       README.md         <-- Documentation for ACM template
 │   │
-│   +---ieee                  <-- IEEE journal template
+│   +---IEEE                  <-- IEEE journal template
 │   │       README.md         <-- Documentation for IEEE template
 │   │
-│   +---usenix                <-- USENIX journal template
-│   │       README.md         <-- Documentation for USENIX template
+│   +---Elsevier              <-- Elsevier journal template
+│   │       elsarticle.cls    <-- Elsevier article class file
+│   │       elsarticle-num... <-- Elsevier bibliography style
+│   │       main.tex          <-- Sample main document
+│   │       references.bib    <-- Sample bibliography
 │   │
-│       README.md             <-- Documentation for journal templates
+│   +---template1             <-- Generic template 1
+│   │       main.tex          <-- Main document file
+│   │       References.bib    <-- Bibliography file
+│   │
+│       README.md             <-- Documentation for curated templates
 │
 +---Article-1                 <-- Article project 1 (empty directory)
 │
@@ -241,6 +246,7 @@ Folder PATH listing
 │
 │       .gitignore            <-- Git exclusion patterns
 │       docker-compose.yml    <-- Docker configuration
+│       fix-git-ownership.sh  <-- Script to fix Git ownership issues in Docker
 │       LICENSE               <-- License information
 │       README.md             <-- Project overview
 ```
@@ -256,9 +262,9 @@ Current tutorials include:
 
 If you have specific tutorial requests, please feel free to suggest them through GitHub issues.
 
-# 3. Journal's LaTeX Templates
+# 3. Curated LaTeX Templates
 
-The `3_Journal_Templates` directory provides ready-to-use LaTeX templates for various academic journals and publication formats. These templates follow the official formatting guidelines for each publisher, saving you time and ensuring your submissions meet all requirements.
+The `Curated_LaTex_Templates` directory provides ready-to-use LaTeX templates for various academic journals and publication formats. These templates follow the official formatting guidelines for each publisher, saving you time and ensuring your submissions meet all requirements.
 
 Currently available templates include:
 
@@ -276,12 +282,19 @@ The Institute of Electrical and Electronics Engineers (IEEE) template is designe
 - Figure and table layouts optimized for IEEE publications
 - Proper header and footer formatting
 
-## 3.3 USENIX Template
-The USENIX template is tailored for USENIX conference submissions. It provides:
-- USENIX-approved layouts and formatting
-- Proper citation styles
-- Section organization following USENIX conventions
-- Figure and table styles that match USENIX requirements
+## 3.3 Elsevier Template
+The Elsevier template provides the official `elsarticle` class and bibliography style for Elsevier journal submissions. It includes:
+- `elsarticle.cls` class file for Elsevier formatting
+- `elsarticle-num.bst` bibliography style
+- Sample main document and bibliography files
+- Proper formatting according to Elsevier guidelines
+
+## 3.4 Generic Templates
+Additional generic templates are available for quick starts and custom projects. These templates provide:
+- Basic LaTeX document structure
+- Bibliography setup
+- Ready-to-use configurations
+- Easy customization options
 
 Additional templates will be added based on community needs. Each template is maintained to stay current with the latest publisher requirements.
 
