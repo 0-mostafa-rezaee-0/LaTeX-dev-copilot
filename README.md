@@ -63,8 +63,6 @@ Getting started with LaTeX Development Copilot is simple:
 
    **Shutdown:** Close the editor window — the container will stop automatically.
 
----
-
 5. **Edit LaTeX Files**
 
    * Go to the `Curated_LaTex_Templates` directory and pick a journal template
